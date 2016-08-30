@@ -1,0 +1,15 @@
+public class output {
+    public static int convAscci(int assci){ 
+       
+        char character=(char)assci;
+        System.out.println(character+ "-"+ assci);
+        return 0;
+    }
+      
+     public static void main(String []args){
+        for (int i=65;i<=90;i++){
+            convAscci(i);
+            
+        }
+    }
+}
